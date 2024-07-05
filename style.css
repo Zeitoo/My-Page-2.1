@@ -6,9 +6,7 @@ main {
      height: 100vh;
      overflow: hidden;
 }
-body {
-     overflow: hidden;
-}
+
 main > * {
      scroll-snap-align: start;
      touch-action: none;
