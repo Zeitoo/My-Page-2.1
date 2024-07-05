@@ -301,11 +301,11 @@ aside ul li:hover {
 .name span:nth-child(2)::after {
     content: " ";
     width: 88%;
-    height: 53%;
+    height: 57%;
     border-radius: 60%;
     left: 50%;
     top: 50%;
-    translate: -59% -34.5%;
+    translate: -59% -34%;
     z-index: -2;
     border: 1px solid black;
     background-color: var(--verde);
@@ -603,6 +603,10 @@ main .section-3 {
     filter: invert(1);
 }
 
+.section-3 .bg > span {
+    display: none;
+}
+
 .section-3 .btn:active {
     scale: 0.9;
 }
@@ -648,13 +652,14 @@ main .section-3 img {
     overflow: visible !important;
     height: auto !important;
     background-color: white;
-    padding: 250px 70px;
+    padding: 20px 70px;
     padding-bottom: 500px;
     z-index: 12;
     position: fixed;
     transform: translateY(100vh);
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 .section-4 .title {
@@ -947,10 +952,7 @@ main .section-2 .dot-1 .sub-dot {
          flex-grow: 1 !important;
          height: 30% !important;
     }
-    .section-1 .name {
-         left: 0 !important;
-         font-size: 6em !important;
-    }
+
     .section-1 .text-content h2 {
          font-size: 2em !important;
          margin: 20px 0;
